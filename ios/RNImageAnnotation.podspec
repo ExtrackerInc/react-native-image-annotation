@@ -2,6 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = "RNImageAnnotation"
   s.version      = "1.0.0"
+  s.homepage     = "https://github.com/rob5408/react-native-image-annotation"
   s.summary      = "RNImageAnnotation"
   s.description  = <<-DESC
                   RNImageAnnotation
