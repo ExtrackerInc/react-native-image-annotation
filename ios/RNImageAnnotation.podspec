@@ -2,12 +2,11 @@
 Pod::Spec.new do |s|
   s.name         = "RNImageAnnotation"
   s.version      = "1.0.0"
-  s.homepage     = "https://github.com/rob5408/react-native-image-annotation"
   s.summary      = "RNImageAnnotation"
   s.description  = <<-DESC
                   RNImageAnnotation
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/rob5408/react-native-image-annotation"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
