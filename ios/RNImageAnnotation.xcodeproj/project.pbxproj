@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RNImageAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNImageAnnotation.m */; };
-		EA26CE812523F39700968A82 /* RNImageAnnotation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RNImageAnnotation.h */; };
+		EA2EB8E52524BA5700A43E29 /* RNImageAnnotation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RNImageAnnotation.h */; };
+		EA2EB8E62524BA7200A43E29 /* RNImageAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNImageAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				EA26CE812523F39700968A82 /* RNImageAnnotation.h in CopyFiles */,
+				EA2EB8E52524BA5700A43E29 /* RNImageAnnotation.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNImageAnnotation.m in Sources */,
+				EA2EB8E62524BA7200A43E29 /* RNImageAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
