@@ -1,7 +1,7 @@
 {
   "name": "react-native-image-annotation",
-  "version": "1.0.4",
-  "description": "simple text annotation for images",
+  "version": "1.0.5",
+  "description": "Simple text annotation for images.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
