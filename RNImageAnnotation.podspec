@@ -1,12 +1,13 @@
+require 'json'
+
+package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
   s.name         = "RNImageAnnotation"
-  s.version      = "1.0.1"
+  s.version      = package['version']
   s.summary      = "RNImageAnnotation"
-  s.description  = <<-DESC
-                  RNImageAnnotation
-                   DESC
-  s.homepage     = "https://github.com/ExtrackerInc/react-native-image-annotation"
+  s.description  = package['description']
+  s.homepage     = package['homepage']
   s.license      = "MIT"
   s.author       = { "author" => "author@domain.cn" }
   s.platform     = :ios, "10.0"
@@ -16,5 +17,3 @@ Pod::Spec.new do |s|
   s.dependency "React"
 
 end
-
-  

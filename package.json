@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-annotation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple text annotation for images",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,11 @@
     "text",
     "string"
   ],
-  "homepage": "https://github.com/skicson/react-native-image-annotation",
+  "homepage": "https://github.com/ExtrackerInc/react-native-image-annotation",
   "author": "Mike MacDonald",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.41.2"
   },
-  "repository": "github:skicson/react-native-image-annotation.git"
+  "repository": "github:ExtrackerInc/react-native-image-annotation.git"
 }
